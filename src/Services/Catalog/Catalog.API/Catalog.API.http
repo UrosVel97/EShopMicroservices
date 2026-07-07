@@ -1,0 +1,18 @@
+@Catalog.API_HostAddress = http://localhost:5000
+
+### Create product
+POST {{Catalog.API_HostAddress}}/products
+Content-Type: application/json
+
+{
+  "name": "Sample Product",
+  "category": [
+    "Category1",
+    "Category2"
+  ],
+  "description": "A sample product used for testing the CreateProduct endpoint.",
+  "imageFile": "product-1.png",
+  "price": 19.99
+}
+
+###
