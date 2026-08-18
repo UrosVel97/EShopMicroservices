@@ -32,3 +32,7 @@
 - Restore after all project and package changes are applied.
 - Build the complete solution and fix all errors and warnings in a bounded pass.
 - Run tests only after the atomic upgrade builds successfully.
+
+## Build Tool Decisions
+- **BuildingBlocks.csproj**: dotnet build (SDK-style modern .NET class library).
+- **Catalog.API.csproj**: dotnet build (SDK-style ASP.NET Core project).
