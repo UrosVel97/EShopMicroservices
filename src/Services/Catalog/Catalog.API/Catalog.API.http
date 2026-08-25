@@ -20,3 +20,6 @@ GET {{Catalog.API_HostAddress}}/products
 
 ###
 GET {{Catalog.API_HostAddress}}/products/01a03896-9f16-7a3c-ac61-0a616dd549ca
+
+###
+GET {{Catalog.API_HostAddress}}/products/category/Category1
